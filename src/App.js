@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className='max-w-[800px] mx-auto h-screen flex items-center'>
-      <div className='rounded-3xl w-full p-3 sm:p-6 h-[800px] bg-[#f2eae9] border-2 border-black flex flex-col'>
+      <div className='rounded-3xl w-full p-3 sm:p-6 h-[650px] sm:h-[800px] bg-[#f2eae9] border-2 border-black flex flex-col'>
         <TodoInput addTodo={addTodo} />
         <TodoList
           todos={todos}
