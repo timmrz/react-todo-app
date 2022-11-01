@@ -18,7 +18,7 @@ export default function TodoInput({ addTodo }) {
       />
       <button
         onClick={() => handleClick(inputValue)}
-        className='ml-3 sm:ml-10 py-3 px-5 bg-orange-400 hover:bg-orange-500 duration-300 whitespace-nowrap rounded-xl text-lg sm:text-2xl font-semibold border-2 border-black'>
+        className='ml-3 sm:ml-10 py-3 px-5 bg-orange-400 sm:hover:bg-orange-500 duration-300 whitespace-nowrap rounded-xl text-lg sm:text-2xl font-semibold border-2 border-black'>
         Add todo
       </button>
     </div>

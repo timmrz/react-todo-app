@@ -14,12 +14,12 @@ export default function TodoItem({ todo, deleteTodo, changeTodo }) {
       <div className='sm:ml-2 sm:text-xl'>
         <button
           onClick={() => changeTodo(todo.id)}
-          className='mr-3 py-2 sm:py-3 px-2 sm:px-4 bg-green-400 rounded-xl bg-gree hover:bg-green-500 duration-300'>
+          className='mr-3 py-2 sm:py-3 px-2 sm:px-4 bg-green-400 rounded-xl bg-gree sm:hover:bg-green-500 duration-300'>
           Ready
         </button>
         <button
           onClick={() => deleteTodo(todo)}
-          className='py-2 sm:py-3 px-2 sm:px-4 bg-red-400 rounded-xl hover:bg-red-500 duration-300'>
+          className='py-2 sm:py-3 px-2 sm:px-4 bg-red-400 rounded-xl sm:hover:bg-red-500 duration-300'>
           Delete
         </button>
       </div>
